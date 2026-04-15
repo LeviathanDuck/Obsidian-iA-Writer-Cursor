@@ -1,0 +1,21 @@
+/* Hide the native browser caret so only our fat caret shows. */
+.fat-cursor-active .cm-editor .cm-content {
+  caret-color: transparent !important;
+}
+
+/* Thin iA-cyan caret. */
+.fat-cursor {
+  position: absolute;
+  width: 2px;
+  margin-left: -1px;
+  background-color: #1FB6E0;
+  border-radius: 2px;
+  pointer-events: none;
+  z-index: 100;
+  animation: fat-cursor-blink 1s steps(2, start) infinite;
+  will-change: left, top, height;
+}
+
+@keyframes fat-cursor-blink {
+  to { visibility: hidden; }
+}
