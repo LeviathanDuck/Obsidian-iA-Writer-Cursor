@@ -1,6 +1,6 @@
 {
-  "id": "fat-cursor",
-  "name": "Fat Cursor",
+  "id": "ia-writer-cursor",
+  "name": "iA Writer Cursor",
   "version": "0.1.0",
   "minAppVersion": "1.4.0",
   "description": "iA Writer-style fat blue cursor for the editor.",

@@ -1,6 +1,6 @@
-# Fat Cursor
+# iA Writer Cursor
 
-An iA Writer-style fat blue caret for Obsidian's editor. Replaces the default thin caret with a thicker, more visible one.
+An iA Writer-style fat blue caret for Obsidian's editor. Replaces the default thin caret with a thicker, more visible one. Something that is not possible with standard themes. 
 
 *A project of the Leviathan Duck from Leftcoast Media House Inc.*
 
@@ -14,7 +14,7 @@ This plugin is an independent implementation and has no affiliation of any kind.
 
 ## Install
 
-Either symlink this folder into a vault's `.obsidian/plugins/` directory, or copy `main.js`, `manifest.json`, and `styles.css` into `<vault>/.obsidian/plugins/fat-cursor/`. Then enable Community Plugins in Obsidian and turn on **Fat Cursor**.
+Install in `<vault>/.obsidian/plugins/ia-writer-cursor/`. Then enable Community Plugins in Obsidian and turn on **iA Writer Cursor**.
 
 ## Development
 

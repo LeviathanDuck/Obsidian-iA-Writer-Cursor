@@ -8,7 +8,7 @@ const fatCursorViewPlugin = ViewPlugin.fromClass(
     constructor(view) {
       this.view = view;
       this.cursor = document.createElement('div');
-      this.cursor.className = 'fat-cursor';
+      this.cursor.className = 'ia-writer-cursor';
       this.cursor.style.display = 'none';
 
       this.container = view.scrollDOM;
@@ -93,11 +93,11 @@ const fatCursorViewPlugin = ViewPlugin.fromClass(
 class FatCursorPlugin extends obsidian.Plugin {
   async onload() {
     this.registerEditorExtension(fatCursorViewPlugin);
-    document.body.classList.add('fat-cursor-active');
+    document.body.classList.add('ia-writer-cursor-active');
   }
 
   onunload() {
-    document.body.classList.remove('fat-cursor-active');
+    document.body.classList.remove('ia-writer-cursor-active');
   }
 }
 
