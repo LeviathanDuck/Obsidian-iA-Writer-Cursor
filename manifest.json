@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "minAppVersion": "1.4.0",
   "description": "iA Writer-style fat blue cursor for the editor.",
-  "author": "Leviathan Duck — Leftcoast Media House Inc.",
+  "author": "Leviathan Duck from Leftcoast Media House Inc.",
   "authorUrl": "",
-  "isDesktopOnly": false
+  "isDesktopOnly": true
 }
