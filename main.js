@@ -1,6 +1,7 @@
 'use strict';
 
 const obsidian = require('obsidian');
+const { Platform } = obsidian;
 const { ViewPlugin } = require('@codemirror/view');
 
 const fatCursorViewPlugin = ViewPlugin.fromClass(
@@ -92,6 +93,15 @@ const fatCursorViewPlugin = ViewPlugin.fromClass(
 
 class FatCursorPlugin extends obsidian.Plugin {
   async onload() {
+    // Belt-and-suspenders mobile guard. The manifest already declares
+    // isDesktopOnly: true, but in some installation paths (e.g. BRAT
+    // sideloading on mobile) the manifest gate is bypassed and the
+    // plugin loads anyway. Bail before installing the editor extension
+    // so the fat caret never appears on mobile.
+    if (Platform.isMobile) {
+      console.log('iA Writer Cursor: mobile detected — plugin disabled');
+      return;
+    }
     this.registerEditorExtension(fatCursorViewPlugin);
     document.body.classList.add('ia-writer-cursor-active');
   }
