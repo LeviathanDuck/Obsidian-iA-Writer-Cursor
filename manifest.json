@@ -1,10 +1,10 @@
 {
   "id": "ia-writer-cursor",
   "name": "iA Writer Cursor",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "minAppVersion": "1.4.0",
   "description": "iA Writer-style fat blue cursor for the editor.",
   "author": "Leviathan Duck from Leftcoast Media House Inc.",
-  "authorUrl": "",
+  "authorUrl": "https://github.com/LeviathanDuck",
   "isDesktopOnly": true
 }
