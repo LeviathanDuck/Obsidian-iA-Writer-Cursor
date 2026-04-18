@@ -1,5 +1,7 @@
 # iA Writer Cursor
 
+> 🧪 **Public beta.** This plugin is in active testing. If you hit something unexpected, please [submit an issue on GitHub](https://github.com/LeviathanDuck/Obsidian-iA-Writer-Cursor/issues) — thanks for helping make it better.
+
 An iA Writer-style fat blue caret for Obsidian's editor. Replaces the default thin caret with a thicker, more visible one. Something that is not possible with standard themes. 
 
 *A project of the Leviathan Duck from Leftcoast Media House Inc.*
